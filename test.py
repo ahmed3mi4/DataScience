@@ -206,6 +206,7 @@ x_test_scaled = scaler.transform(x_test)
 
 import joblib
 
+
 rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
 rf_model.fit(x_train_scaled, y_train)
 
